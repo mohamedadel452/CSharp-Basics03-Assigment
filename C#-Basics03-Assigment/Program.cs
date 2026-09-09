@@ -26,6 +26,36 @@ namespace Session3Assignment
 
             #endregion
 
+            #region Q2: String ReferenceEquals
+
+            Console.WriteLine("\nQ2: String ReferenceEquals");
+
+            Console.WriteLine("-Create two string variables str1 and str2 with the same value \"Clean Code\".");
+
+            string str1 = "Clean Code";
+            string str2 = "Clean Code";
+
+
+            // Check if str1 and str2 reference the same object in memory
+            bool areSameReference = object.ReferenceEquals(str1, str2);
+
+            Console.WriteLine($"Are the strings the same reference? {areSameReference}");
+
+            // The output will be True because string literals with the same value are interned in C#.
+            //and the same reference means that both str1 and str2 point to the same memory location where the string "Clean Code" is stored.
+
+            Console.WriteLine("-Now, create a new string variable str3 with the value \"clean code\" (note the lowercase).");
+
+            string str3 = new string("Clean Code".ToCharArray());
+            bool areSameReference2 = object.ReferenceEquals(str1, str3);
+
+            Console.WriteLine($"Are the strings the same reference? {areSameReference2}");
+
+
+
+            #endregion
+
+
         }
     }
 }
