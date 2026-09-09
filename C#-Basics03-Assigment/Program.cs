@@ -230,13 +230,20 @@ namespace Session3Assignment
             Console.WriteLine();
             #endregion
 
-
-
-
-
-
+            #region Q15: Foreach Loop
+            Console.WriteLine(" Q15: Foreach Loop ");
+            foreach (string book in books)
+            {
+                // Print the index of the book in the list using IndexOf method and add 1 to make it 1-based index
+                //Index of method returns the index of the first occurrence of a specific object in the list
+                Console.WriteLine($"{books.IndexOf(book) + 1}. {book}");
+            }
+            Console.WriteLine();
+            #endregion
 
 
         }
+
+
     }
-}
+    }
