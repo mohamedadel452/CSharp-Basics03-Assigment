@@ -1,5 +1,7 @@
 ﻿
 
+using System.Text;
+
 namespace Session3Assignment
 {
     public class Program
@@ -52,6 +54,31 @@ namespace Session3Assignment
             Console.WriteLine($"Are the strings the same reference? {areSameReference2}");
 
 
+
+            #endregion
+
+            #region Q3:StringBuilder Append
+            Console.WriteLine("\nQ3: StringBuilder Append");
+
+            Console.WriteLine("-Create a StringBuilder object named str_builder.");
+
+            StringBuilder str_builder = new StringBuilder();
+
+            Console.WriteLine("append the string \"Book List\" to the str_builder using the Append() method.");
+            //apend the string "Book List" to the StringBuilder object str_builder using the Append() method.
+            str_builder.Append("Book List");
+
+
+            Console.WriteLine("The string \"Book List\" has been appended to the str_builder.");
+
+            //append the string " - Updated" to the StringBuilder object str_builder using the Append() method.
+            Console.WriteLine("append the string \" - Updated\" to the StringBuilder object str_builder using the Append() method.");
+            str_builder.Append(" - Updated");
+
+            // Print the final string after appending
+            Console.WriteLine($"Final string: {str_builder}");
+
+            //Q3 is answered
 
             #endregion
 
