@@ -82,6 +82,21 @@ namespace Session3Assignment
 
             #endregion
 
+            #region Q4: StringBuilder Replace
+            Console.WriteLine("\nQ4: StringBuilder Replace ");
+
+            Console.WriteLine("use the Replace() method of the StringBuilder class, replace the substring\n \"Book List\" with \"Library\" in the str_builder object.");
+           
+            //using the Replace() method of the StringBuilder class, replace the substring "Book List" with "Library" in the str_builder object.
+            str_builder.Replace("Book List", "Library");
+            Console.WriteLine($"Final string after replacement: {str_builder}");
+            Console.WriteLine("The substring \"Book List\" has been replaced with \"Library\" in the str_builder object.");
+
+
+
+
+            #endregion
+
 
         }
     }
