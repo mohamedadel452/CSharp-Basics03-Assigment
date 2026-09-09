@@ -178,6 +178,19 @@ namespace Session3Assignment
             Console.WriteLine();
             #endregion
 
+            #region Q11: Ternary Operator
+            Console.WriteLine("Q11: Ternary Operator ");
+            Console.WriteLine("Use the ternary operator to assign a string variable named sizeLabel with the value:\n" +
+                " \"Long Book\" if the number of pages is greater than " +
+                " 300, \n or \"Short Book\" otherwise.");
+            string sizeLabel = (pagess > 300) ? "Long Book" : "Short Book";
+
+            //varible = (condition) ? value_if_true : value_if_false;
+            Console.WriteLine($"sizeLabel: {sizeLabel}\n");
+            #endregion
+
+
+
 
 
 
