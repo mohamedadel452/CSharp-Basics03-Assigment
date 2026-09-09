@@ -270,11 +270,43 @@ namespace Session3Assignment
             Console.WriteLine();
             #endregion
 
+            #region Q18: Method PrintFirstBook (with early return)
+            Console.WriteLine("Q18: Method PrintFirstBook ");
+            PrintFirstBook(books);
 
+            // Testing with an empty array
+            Console.WriteLine("\nTesting PrintFirstBook with empty array:");
+            string[] emptyBooks = new string[0];
+            PrintFirstBook(emptyBooks);
+            Console.WriteLine();
+
+            //Testing with a null array
+            Console.WriteLine("Testing PrintFirstBook with null array:");
+            PrintFirstBook(null);
+            Console.WriteLine(); 
+            #endregion
 
 
         }
 
+        #region Method for Q18
+         
+        // This method takes an array of strings (booksArray) as input and prints the first book in the array.
+        //the method is static , meaning it belongs to the class itself rather than an instance of the class
+        //onle static methods can be called without creating an instance of the class.
+        // The method has a void return type, indicating that it does not return any value.
+        // The method uses an early return to exit the method if the input array is null or empty, preventing any further execution and avoiding potential errors.
+        static void PrintFirstBook(string[] booksArray)
+        {
+            if (booksArray == null || booksArray.Length == 0)
+            {
+                Console.WriteLine("The array is empty or null. No books to display.");
+                return;
+            }
+            Console.WriteLine($"First book is: {booksArray[0]}");
+        }
+        #endregion
+
 
     }
-    }
+}
