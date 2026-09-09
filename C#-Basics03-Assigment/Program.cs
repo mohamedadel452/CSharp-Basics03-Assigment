@@ -215,6 +215,21 @@ namespace Session3Assignment
             Console.WriteLine();
             #endregion
 
+            #region Q14: Do-While Loop
+            Console.WriteLine(" Q14: Do-While Loop ");
+            int count = 0;
+            // Use a do-while loop to print "Checking book..." three times
+            // The do-while loop will execute the block of code at least once before checking the condition
+            do
+            {
+                Console.WriteLine("Checking book...");
+                count++;
+            }
+            // The loop will continue as long as count is less than 3
+            while (count < 3);
+            Console.WriteLine();
+            #endregion
+
 
 
 
