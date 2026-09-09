@@ -159,6 +159,25 @@ namespace Session3Assignment
             }
             #endregion
 
+            #region Q10: Switch Statement
+            Console.WriteLine("Q10: Switch Statement ");
+            string title3 = "Refactoring";
+            Console.WriteLine("The Titel is :");
+            switch (title3)
+            {
+                case "Clean Code":
+                    Console.WriteLine("Great choice!");
+                    break;
+                case "Refactoring":
+                    Console.WriteLine("Nice pick!");
+                    break;
+                default:
+                    Console.WriteLine("Never heard of it");
+                    break;
+            }
+            Console.WriteLine();
+            #endregion
+
 
 
 
