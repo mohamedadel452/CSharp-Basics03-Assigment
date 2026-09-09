@@ -114,8 +114,20 @@ namespace Session3Assignment
             // Create this sentence using string interpolation: Book: Clean Code, Pages: 464
             string sentence2 = $"Book: {title2}, Pages: {pages}";
             Console.WriteLine(sentence2 + "\n");
-         
+
             #endregion
+
+            #region Q7: String.Format
+            Console.WriteLine("Q7: String.Format ");
+
+            Console.WriteLine("Create this sentence using String.Format: Book: Clean Code, Pages: 464");
+            string sentence3 = string.Format("Book: {0}, Pages: {1}", title2, pages);
+        
+            Console.WriteLine(sentence3 + "\n");
+
+            #endregion
+
+
 
 
 
