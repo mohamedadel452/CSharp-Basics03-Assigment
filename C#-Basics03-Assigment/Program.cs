@@ -189,6 +189,18 @@ namespace Session3Assignment
             Console.WriteLine($"sizeLabel: {sizeLabel}\n");
             #endregion
 
+            #region Q12: For Loop
+            Console.WriteLine("Q12: For Loop ");
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //print the list of books using a for loop
+            for (int i = 0; i < books.Length; i++)
+            {
+                Console.WriteLine($"{i + 1}. {books[i]}");
+            }
+            Console.WriteLine();
+            #endregion
+
+
 
 
 
