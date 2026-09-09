@@ -253,8 +253,24 @@ namespace Session3Assignment
                 }
                 Console.WriteLine($"{books.IndexOf(book) + 1}. {book}");
             }
-            
+
             #endregion
+
+            #region Q17: Continue Statement
+            Console.WriteLine("\nQ17: Continue Statement ");
+            foreach (string book in books)
+            {
+                if (book == "The Pragmatic Programmer")
+                {
+                    // If the book is "The Pragmatic Programmer", skip the rest of the loop and continue with the next iteration
+                    continue;
+                }
+                Console.WriteLine($"{books.IndexOf(book) + 1}. {book}");
+            }
+            Console.WriteLine();
+            #endregion
+
+
 
 
         }
