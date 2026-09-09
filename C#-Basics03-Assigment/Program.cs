@@ -144,7 +144,19 @@ namespace Session3Assignment
             {
                 Console.WriteLine("Short Book");
             }
-    
+
+            #endregion
+
+            #region Q9: Logical AND (&&)And If Statment
+
+            Console.WriteLine(" Q9: Logical AND (&&) And If Statment");
+            
+            bool isAvailable = true;
+            
+            if (pagess > 300 && isAvailable)
+            {
+                Console.WriteLine("You can borrow this book\n");
+            }
             #endregion
 
 
