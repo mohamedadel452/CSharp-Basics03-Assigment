@@ -241,6 +241,21 @@ namespace Session3Assignment
             Console.WriteLine();
             #endregion
 
+            #region Q16: Break Statement
+            Console.WriteLine(" Q16: Break Statement ");
+            //var data structure to store the list of books instead of writing string data type
+            foreach (var book in books)
+            {
+                if (book == "Refactoring")
+                {
+                    // If the book is "Refactoring", break out of the loop 
+                    break;
+                }
+                Console.WriteLine($"{books.IndexOf(book) + 1}. {book}");
+            }
+            
+            #endregion
+
 
         }
 
