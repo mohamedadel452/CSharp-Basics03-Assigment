@@ -97,6 +97,15 @@ namespace Session3Assignment
 
             #endregion
 
+            #region Q5: String Concatenation (+)
+            Console.WriteLine("\nQ5: String Concatenation (+) ");
+            Console.WriteLine("Create a string variable named title2 with the value \"Clean Code\"\n and an integer variable named pages with the value 464.");
+            string title2 = "Clean Code";
+            int pages = 464;
+            string sentence1 = "Book: " + title2 + ", Pages: " + pages;
+            Console.WriteLine(sentence1 + "\n");
+            #endregion
+
 
         }
     }
