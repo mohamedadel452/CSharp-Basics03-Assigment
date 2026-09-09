@@ -200,6 +200,20 @@ namespace Session3Assignment
             Console.WriteLine();
             #endregion
 
+            #region Q13: While Loop
+            Console.WriteLine("Q13: While Loop ");
+            //print the list of books using a while loop
+            // Initialize a variable to keep track of the index
+            int index = 0;
+            //print the list of books using a while loop till the index is less than the length of the books array
+            while (index < books.Length)
+            {
+                Console.WriteLine($"{index + 1}. {books[index]}");
+                // Increment the index to avoid an infinite loop
+                index++;
+            }
+            Console.WriteLine();
+            #endregion
 
 
 
