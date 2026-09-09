@@ -127,6 +127,26 @@ namespace Session3Assignment
 
             #endregion
 
+            #region Q8: If / Else Statement
+
+            
+            Console.WriteLine(" Q8: If / Else Statement ");
+           
+            Console.WriteLine("Create an if/else statement that checks if the number of pages is greater than 300.\n If it is, print \"Long Book\"; otherwise, print \"Short Book\".");
+          
+            int pagess = 464;
+            
+            if (pagess > 300)
+            {
+                Console.WriteLine("Long Book");
+            }
+            else
+            {
+                Console.WriteLine("Short Book");
+            }
+    
+            #endregion
+
 
 
 
