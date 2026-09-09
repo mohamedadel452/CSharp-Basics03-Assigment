@@ -106,6 +106,19 @@ namespace Session3Assignment
             Console.WriteLine(sentence1 + "\n");
             #endregion
 
+            #region Q6: String Interpolation ($)
+            Console.WriteLine("Q6: String Interpolation ($) ");
+
+            Console.WriteLine("Create this sentence using string interpolation: Book: Clean Code, Pages: 464");
+           
+            // Create this sentence using string interpolation: Book: Clean Code, Pages: 464
+            string sentence2 = $"Book: {title2}, Pages: {pages}";
+            Console.WriteLine(sentence2 + "\n");
+         
+            #endregion
+
+
+
 
         }
     }
