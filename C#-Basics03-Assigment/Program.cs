@@ -287,6 +287,9 @@ namespace Session3Assignment
             #endregion
 
 
+            Console.WriteLine(string.Join(", ", books));
+
+
         }
 
         #region Method for Q18
